@@ -27,13 +27,13 @@
     "email": "pedromiguel_monteiro@hotmail.com"
   },
   "license": "MIT",
-  "homepage": "https://github.com/pedroarantes/pat-ai-tests#readme",
+  "homepage": "https://github.com/piguelmon/pat-ai-tests#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pedroarantes/pat-ai-tests.git"
+    "url": "https://github.com/piguelmon/pat-ai-tests.git"
   },
   "bugs": {
-    "url": "https://github.com/pedroarantes/pat-ai-tests/issues"
+    "url": "https://github.com/piguelmon/pat-ai-tests/issues"
   },
   "engines": {
     "node": ">=18.0.0"
