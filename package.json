@@ -1,0 +1,52 @@
+{
+  "name": "pat-ai-tests",
+  "version": "1.0.0",
+  "description": "Pedro Arantes Tests — AI-powered test generator for TypeScript. Supports Azure OpenAI and Ollama.",
+  "bin": {
+    "pat": "./dist/pat.js"
+  },
+  "scripts": {
+    "build": "tsc && node -e \"const fs=require('fs'); const f='./dist/pat.js'; fs.writeFileSync(f, '#!/usr/bin/env node\\n' + fs.readFileSync(f,'utf8')); fs.chmodSync(f, '755');\"",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "typescript",
+    "testing",
+    "jest",
+    "angular",
+    "ai",
+    "azure-openai",
+    "ollama",
+    "test-generator",
+    "cli",
+    "coverage"
+  ],
+  "author": {
+    "name": "Pedro Arantes",
+    "email": "pedromiguel_monteiro@hotmail.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/pedroarantes/pat-ai-tests#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pedroarantes/pat-ai-tests.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pedroarantes/pat-ai-tests/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist/",
+    "README.md"
+  ],
+  "dependencies": {
+    "openai": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
