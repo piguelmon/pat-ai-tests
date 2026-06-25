@@ -1,6 +1,6 @@
 {
   "name": "pat-ai-tests",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Pedro Arantes Tests — AI-powered test generator for TypeScript. Supports Azure OpenAI and Ollama.",
   "bin": {
     "pat": "./dist/pat.js"
